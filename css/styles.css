@@ -1,0 +1,32 @@
+/*Reset*/
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Variaveis*/
+:root{
+    --main-color: #54B689; 
+    --main-text-color: #fff;
+    --border-color: #999;
+    --bio-bg-color: #1E2A3A;
+    --bio-border-color: #293644;
+    --about-bg-color: #111821;
+    
+}
+
+/*General*/
+.highlight
+{
+    color: var(--main-color);
+}
+/* Containers */
+#container{
+    display:flex;
+}
+
+h1{
+    color:red;
+}
